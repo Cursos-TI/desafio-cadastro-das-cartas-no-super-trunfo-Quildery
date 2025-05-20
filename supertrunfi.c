@@ -11,7 +11,7 @@ int main() {
     float area1;
     float pib1;
     int pontosTuristicos1;
-    float densidade1
+    float densidade1;
     float pib_per_capital1;
 
     // Carta 2
@@ -91,9 +91,9 @@ int main() {
     // Cálculo de densidade populaciona e PIB per Capital
 
     densidade1 = populacao1 / area1;
-    pib_per_capital1 = (pib * 1000000000) / populacao1;
-    densidadae2 = populacao2 / area2;
-    pib_per_capital2 = (pib * 1000000000) / populacao2;
+    pib_per_capital1 = (pib1 * 1000000000) / populacao1;
+    densidade2 = populacao2 / area2;
+    pib_per_capital2 = (pib2 * 1000000000) / populacao2;
 
     // Saída de dados da Carta 1
 
