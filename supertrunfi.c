@@ -101,7 +101,7 @@ int main() {
 
     superpoder1 = (float) populacao1 + area1 + pontosTuristicos1 + densidade1 + pib_per_capital1;
     if (densidade1 > 0) superPoder1 += (1.0 / densidade1);
-    superPoder2 = (float) populcao2 + area2 + pontosTuristicos2 + densidade2 + pib_per_capital2;
+    superPoder2 = (float) populacao2 + area2 + pontosTuristicos2 + densidade2 + pib_per_capital2;
     if (densidade2 > 0) superPoder2 += (1.0 / densidade2);
 
     // Saída de dados da Carta 1
